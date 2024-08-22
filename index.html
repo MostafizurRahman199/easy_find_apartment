@@ -80,19 +80,11 @@
 
                   <div class="dropdown dropdown-end">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                          <div class="w-10 rounded-full">
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M4 6h16M4 12h8m-8 6h16" />
-                          </svg>
+                          <div class="w-10 rounded-full bg-white p-2 border-1 shadow-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                            
                           </div>
                         </div>
                         <ul
@@ -569,7 +561,7 @@
 
           </section>
 
-          <section class="client_says px-8 sm:px-12 md:px-8 lg:px-8 xl:px-48 font_2 py-20">
+          <section class="client_says px-8 sm:px-12 md:px-8 lg:px-8 xl:px-48 font_2 pt-20 ">
            
            
             <div class="flex flex-col gap-8 justify-center items-center ">
@@ -769,9 +761,24 @@
          
           <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 max-auto space-y-10">
            
-            <div class="flex justify-center items-center ">
+         
+
+            <label class="swap swap-flip text-9xl">
+              <!-- this hidden checkbox controls the state -->
+              <input type="checkbox" />
+            
+              <div class="swap-off">
+                <div class="flex justify-center items-center ">
                   <img class="w-5/6" src="./assets/question2.png" alt="">
             </div>
+              </div>
+              <div class="swap-on">
+                <div class="flex flex-col justify-center items-center ">
+                  <img class="w-5/6" src="./assets/help.webp" alt="">
+                  <p class="text-base font-bold font_1">We are here to Help you😊</p>
+            </div>
+              </div>
+            </label>
           
             <div class="question_here flex flex-col justify-center items-center gap-4 ">
               <div class="collapse collapse-arrow bg-base-200">
