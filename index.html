@@ -21,6 +21,11 @@
         .font_1{
             font-family: "Manrope", sans-serif;
         }
+
+        .text-stroke {
+  -webkit-text-stroke: 1px black; /* For WebKit browsers */
+  text-stroke: 1px black; /* For other browsers */
+}
        
     </style>
   </head>
@@ -115,7 +120,7 @@
                 <div class="hero-content text-center max-auto">
                   <div class="flex flex-col justify-center items-center">
                     <img src="./assets/banner.png" class="mb-5" alt="">
-                    <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold">A barn house of this design has a striking appearance</h1>
+                    <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-stroke  drop-shadow-lg">A barn house of this design has a striking appearance</h1>
                     <p class="py-6 w-4/5 text-[#494949]">
                       The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                     </p>
@@ -149,7 +154,7 @@
                   
                   About Us
                 </button>
-                <h1 class="text-center sm:text-center md:text-start lg:text-start drop-shadow-lg text-xl sm:text-2xl md:text-3xl lg:text-5xl font-extrabold font_1 text-[#212121]">We design thoughtful, liveable spaces</h1>
+                <h1 class="text-center sm:text-center md:text-start lg:text-start drop-shadow-lg text-xl sm:text-2xl md:text-3xl lg:text-5xl font-extrabold font_1 text-[#212121] text-stroke ">We design thoughtful, liveable spaces</h1>
                 <p class="text-center sm:text-center md:text-start lg:text-start text-[#494949]">The barn house captivates with its blend of rustic charm and 
                   modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
@@ -255,7 +260,79 @@
             </div>
           </section>
 
+
+          <section class="work_process  bg-[#F4F4F4] px-4 sm:px-12 md:px-8 lg:px-8 xl:px-44 py-20 mx-auto">
+
+            <div class="about_text flex flex-col items-center justify-center space-y-6 !m-0">
+                
+                
+              <button class="btn w-fit rounded-full bg-[#FFFFFF]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+                
+                
+                How we works
+              </button>
+              <h1 class="text-center sm:text-center md:text-start lg:text-start drop-shadow-lg text-xl sm:text-xl md:text-2xl lg:text-3xl font-extrabold font_1 text-[#212121] text-stroke ">Our Works Process</h1>
+              <p class="text-center w-4/5 text-[#494949]">Our work process is a meticulously crafted sequence of steps, ensuring that every project is executed with precision, from initial concept to final delivery, guaranteeing exceptional results</p>
+
           
+
+             
+            </div>
+
+            <div class="  py-8  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            
+            
+              <div class="shadow rounded-xl stat flex flex-col justify-center items-start bg-[#E7C1D3]
+              space-y-4">
+                <div class="">
+                  <img src="./assets/concept.png" alt="">
+                </div>
+                <h2 class="text-xl font-bold">Concept</h2>
+              
+                <div class="">Our company thrives on turning innovative concepts into impactful realities.</div>
+              </div>
+            
+              <div class="shadow rounded-xl stat flex flex-col justify-center items-start bg-[#EFDA6E]
+              space-y-4">
+                <div class="">
+                  <img src="./assets/flow-chart.png" alt="">
+                </div>
+                <h2 class="text-xl font-bold">Design Process</h2>
+              
+                <div class="">Our design process turns ideas into functional solutions</div>
+              </div>
+            
+              <div class="bg-[#A4DAC3] shadow rounded-xl stat flex flex-col justify-center items-start 
+              space-y-4">
+                <div class="">
+                  <img src="./assets/vision.png" alt="">
+                </div>
+                <h2 class="text-xl font-bold">Supervision</h2>
+              
+                <div class="">Our supervision guarantees every project meets the highest standards.</div>
+              </div>
+            
+              <div class="shadow rounded-xl stat flex flex-col justify-center items-start bg-[#77AAEA]
+              space-y-4">
+                <div class="">
+                  <img src="./assets/budget-planning.png" alt="">
+                </div>
+                <h2 class="text-xl font-bold">Budget Planning</h2>
+              
+                <div class="">We planning strategically allocating resources to maximize financial efficiency.</div>
+              </div>
+             
+           
+       
+
+            </div>
+
+          </section>
+
+
     </main>
 
     <footer>
